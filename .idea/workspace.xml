@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="439afe1c-9df2-475a-afbf-f0cb1152de2b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="241">
+              <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -36,12 +39,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="204">
+              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+              <folding>
+                <marker date="1521157411343" expanded="true" signature="264:276" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,13 +67,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/index.js" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -117,6 +128,8 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -143,12 +156,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521156003552</updated>
-      <workItem from="1521156004984" duration="842000" />
+      <workItem from="1521156004984" duration="1479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="842000" />
+    <option name="totallyTimeSpent" value="1479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -200,19 +213,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        <state relative-caret-position="241">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="204">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <marker date="1521157411343" expanded="true" signature="264:276" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
