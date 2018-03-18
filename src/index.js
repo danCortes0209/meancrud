@@ -2,8 +2,12 @@
 const express = require("express");
 const app = express();
 
-//app settings
+//app settings, get the port of the machine to run
 app.set("port", process.env.PORT || 3000);
+//call the render file property from ejs
+app.engine("html",require("ejs").renderFile);
+//set ejs as the template engine
+app.set("view engine","ejs");
 
 
 
