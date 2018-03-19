@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="439afe1c-9df2-475a-afbf-f0cb1152de2b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.js" afterPath="$PROJECT_DIR$/src/routes/index.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/routes/task.js" afterPath="$PROJECT_DIR$/src/routes/task.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,26 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -57,21 +37,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+            <state relative-caret-position="102">
+              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="task.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/routes/task.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            <state relative-caret-position="238">
+              <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -98,8 +78,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/views/index.html" />
         <option value="$PROJECT_DIR$/src/routes/index.js" />
-        <option value="$PROJECT_DIR$/src/routes/task.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/routes/task.js" />
       </list>
     </option>
   </component>
@@ -170,8 +150,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,12 +189,13 @@
       <updated>1521156003552</updated>
       <workItem from="1521156004984" duration="5804000" />
       <workItem from="1521354616475" duration="1802000" />
-      <workItem from="1521437913216" duration="1829000" />
+      <workItem from="1521437913216" duration="2495000" />
+      <workItem from="1521440427663" duration="852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9435000" />
+    <option name="totallyTimeSpent" value="10953000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -236,7 +217,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3223684" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -259,6 +240,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -271,7 +284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -295,7 +307,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="10" lean-forward="true" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -325,76 +336,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="6555" column="0" lean-forward="false" selection-start-line="6555" selection-start-column="0" selection-end-line="6555" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#minimist#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mixin-deep#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mongodb#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mongodb-core#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mongojs#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#ms#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#nan#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#nanomatch#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#negotiator#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#nodemon#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#nopt#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#normalize-path#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#npm#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#npm-run-path#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#object-assign#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#object-copy#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#object-visit#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#object.pick#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#on-finished#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#once#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#p-finally#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#package-json#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#parse-mongo-url#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#parseurl#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#pascalcase#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#path-dirname#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#path-is-absolute#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#path-is-inside#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#path-key#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#path-to-regexp#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#pause-stream#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#pify#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#posix-character-classes#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#prepend-http#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#process-nextick-args#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#proxy-addr#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#ps-tree#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/task.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
+    <entry file="file://$PROJECT_DIR$/src/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -407,10 +355,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/index.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
           <folding />
         </state>
       </provider>
