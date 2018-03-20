@@ -5,7 +5,7 @@ const path = require("path");
 const app = express();
 
 //require routers
-const index = require("./routes/index.js");
+//const index = require("./routes/index.js");
 const task = require("./routes/task.js");
 
 //app settings, get the port of the machine to run
@@ -20,8 +20,11 @@ app.use(express.json());
 app.use(express.urlencoded({extended:false}));
 
 //routes
-app.use(index);
+//app.use(index);
 app.use("/api",task);
+
+//static files
+app.use(express.static(path.join(__dirname,"dist")));
 
 //initialize app on port 3000
 app.listen(app.get("port"), () => {
