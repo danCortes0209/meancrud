@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="439afe1c-9df2-475a-afbf-f0cb1152de2b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/client/src/app/app.module.ts" afterPath="$PROJECT_DIR$/src/client/src/app/app.module.ts" />
-      <change beforePath="$PROJECT_DIR$/src/client/src/app/components/tasks/tasks.component.html" afterPath="$PROJECT_DIR$/src/client/src/app/components/tasks/tasks.component.html" />
-      <change beforePath="$PROJECT_DIR$/src/client/src/app/components/tasks/tasks.component.ts" afterPath="$PROJECT_DIR$/src/client/src/app/components/tasks/tasks.component.ts" />
-      <change beforePath="$PROJECT_DIR$/src/client/src/app/services/task.service.ts" afterPath="$PROJECT_DIR$/src/client/src/app/services/task.service.ts" />
-      <change beforePath="$PROJECT_DIR$/src/client/src/index.html" afterPath="$PROJECT_DIR$/src/client/src/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/routes/task.js" afterPath="$PROJECT_DIR$/src/routes/task.js" />
+      <change beforePath="$PROJECT_DIR$/README.MD" afterPath="$PROJECT_DIR$/README.MD" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tasks.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tasks.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/src/app/components/tasks/tasks.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -47,7 +41,7 @@
       <file leaf-file-name="task.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/task.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-197">
+            <state relative-caret-position="-248">
               <caret line="44" column="76" lean-forward="true" selection-start-line="44" selection-start-column="76" selection-end-line="44" selection-end-column="76" />
               <folding />
             </state>
@@ -57,9 +51,22 @@
       <file leaf-file-name="tasks.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/src/app/components/tasks/tasks.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="29" column="59" lean-forward="false" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
+            <state relative-caret-position="561">
+              <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.MD" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="255">
+                <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -103,17 +110,17 @@
         <option value="$PROJECT_DIR$/src/routes/index.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/carritos.js" />
-        <option value="$PROJECT_DIR$/README.MD" />
         <option value="$PROJECT_DIR$/src/client/src/app/Task.ts" />
         <option value="$PROJECT_DIR$/src/client/.angular-cli.json" />
         <option value="$PROJECT_DIR$/src/client/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/src/dist/index.html" />
         <option value="$PROJECT_DIR$/src/client/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/src/client/src/index.html" />
-        <option value="$PROJECT_DIR$/src/client/src/app/components/tasks/tasks.component.html" />
         <option value="$PROJECT_DIR$/src/routes/task.js" />
         <option value="$PROJECT_DIR$/src/client/src/app/services/task.service.ts" />
         <option value="$PROJECT_DIR$/src/client/src/app/components/tasks/tasks.component.ts" />
+        <option value="$PROJECT_DIR$/src/client/src/app/components/tasks/tasks.component.html" />
+        <option value="$PROJECT_DIR$/README.MD" />
       </list>
     </option>
   </component>
@@ -271,12 +278,12 @@
       <workItem from="1521584583205" duration="1408000" />
       <workItem from="1521587354042" duration="6730000" />
       <workItem from="1521760838990" duration="376000" />
-      <workItem from="1521855593566" duration="9663000" />
+      <workItem from="1521855593566" duration="9932000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31358000" />
+    <option name="totallyTimeSpent" value="31627000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -530,16 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="238">
-            <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -692,22 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/task.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-197">
-          <caret line="44" column="76" lean-forward="true" selection-start-line="44" selection-start-column="76" selection-end-line="44" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/src/app/components/tasks/tasks.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="29" column="59" lean-forward="false" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/src/app/services/task.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -725,6 +706,33 @@
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-248">
+          <caret line="44" column="76" lean-forward="true" selection-start-line="44" selection-start-column="76" selection-end-line="44" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/src/app/components/tasks/tasks.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="255">
+            <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
