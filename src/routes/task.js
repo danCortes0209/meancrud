@@ -27,7 +27,7 @@ router.get("/tasks/:id",(req,res,next) => {
 router.post("/tasks",(req,res,next) => {
     const task = req.body;
     //if we're getting a bad task, we have to send a "bad data" code in json
-    if (!task.title  || task.isDone + "") {
+    if (!task.title  || task.isDone) {
         res.status(400).json({
             error: "bad data"
         });
@@ -40,14 +40,13 @@ router.post("/tasks",(req,res,next) => {
     }
 });
 
-//deleting a task
-router.delete("/tasks/:id", (req,res,next) => {
-    db.tasks.remove({_id: mongojs.ObjectId( req.params.id )}, (err,res)=>{
-        //you know what does this do ;)
-        if (err) return next(err);
-        res.json(res);
+// Delete task
+router.delete('/tasks/:id', (req, res, next) => {
+    db.tasks.remove({_id: mongojs.ObjectId(req.params.id)}, (err, task) => {
+        if(err){ res.send(err); }
+        res.json(task);
     });
-});
+})
 
 //updating
 router.put("/tasks/:id",(req,res,next)=>{

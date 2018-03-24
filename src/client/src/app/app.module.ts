@@ -1,10 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { TasksComponent } from './components/tasks/tasks.component';
 import { TaskService } from './services/task.service';
+import { FormsModule } from '@angular/forms'
 
 
 @NgModule({
@@ -13,7 +14,9 @@ import { TaskService } from './services/task.service';
     TasksComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [TaskService],
   bootstrap: [AppComponent]

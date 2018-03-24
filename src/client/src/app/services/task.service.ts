@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import "rxjs";
+import "rxjs/Rx";
 
 import { Task } from '../Task';
 
@@ -14,15 +14,15 @@ export class TaskService {
   }
 
   addTask(newTask: Task){
-    return this.http.post(`${this.domain}api/tasks`,newTask).map(res => res);
+    return this.http.post<Task>(`${this.domain}api/tasks`,newTask).map(res => res);
   }
 
   deleteTask(id){
-    return this.http.delete(`${this.domain}api/tasks/${id}`).map(res => res);
+    return this.http.delete<Task>(`${this.domain}api/tasks/${id}`).map(res => res);
   }
 
-  updateTask(newTask: Task, id){
-    return this.http.put(`${this.domain}api/tasks/${id}`, newTask).map(res => res);
+  updateTask(newTask){
+    return this.http.put(`${this.domain}api/tasks/${newTask.id}`, newTask).map(res => res);
   }
 
 }

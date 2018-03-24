@@ -1,7 +1,12 @@
 <div class="card">
   <div class="card-body">
-    <form action="">
-
+    <form (submit)="addTask($event)">
+      <div class="input-group">
+        <input type="text" name="title" placeholder="Añade una tarea" [(ngModel)]="title" class="form-control">
+        <span class="input-group-append">
+          <button type="submit" class="btn btn-primary">Guardar</button>
+        </span>
+      </div>
     </form>
   </div>
 </div>
@@ -14,6 +19,16 @@
     </tr>
   </thead>
   <tbody>
-
+    <tr *ngFor="let task of tasks">
+      <td>
+        <input type="checkbox">
+      </td>
+      <td>
+        {{ task.title }}
+      </td>
+      <td>
+        <button class="btn btn-danger" (click)="deleteTask(task._id)"><i class="fa fa-trash"></i> Delete</button>
+      </td>
+    </tr>
   </tbody>
 </table>
