@@ -22,7 +22,7 @@ export class TaskService {
   }
 
   updateTask(newTask){
-    return this.http.put(`${this.domain}api/tasks/${newTask.id}`, newTask).map(res => res);
+    return this.http.put(`${this.domain}api/tasks/${newTask._id}`, newTask).map(res => res);
   }
 
 }

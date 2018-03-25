@@ -15,6 +15,7 @@ export class TasksComponent implements OnInit {
     this.taskService.getTasks()
       .subscribe(tasks => {
         this.tasks = tasks
+        console.log(this.tasks);
       });
   }
 
@@ -46,6 +47,18 @@ export class TasksComponent implements OnInit {
         }
       });
     }
+  }
+
+  updateTask(task: Task){
+    const newTask = {
+      _id: task._id,
+      title: task.title,
+      isDone: !task.isDone
+    };
+    this.taskService.updateTask(newTask).subscribe(res => {
+      task.isDone = !task.isDone;
+    });
+    console.log(task);
   }
 
 }

@@ -54,7 +54,7 @@ router.put("/tasks/:id",(req,res,next)=>{
     const updateTask = {};
 
     //validating this task
-    if (task.title && task.isDone){
+    if (task.title){
         updateTask.title = task.title;
         updateTask.isDone = task.isDone;
     }
@@ -64,10 +64,10 @@ router.put("/tasks/:id",(req,res,next)=>{
             error: "bad data"
         });
     } else {
-        db.tasks.update({_id: mongojs.ObjectId( req.params.id )}, (err,task)=>{
+        db.tasks.update({_id: mongojs.ObjectId( req.params.id )},updateTask, (err,task)=>{
             //you know what does this do ;)
             if (err) return next(err);
-            res.json(res);
+            res.json(task);
         });
     }
 });
